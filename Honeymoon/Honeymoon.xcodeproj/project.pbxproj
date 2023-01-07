@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E81B6DEE2962793700633E44 /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B6DED2962793700633E44 /* HoneymoonModel.swift */; };
+		E81B6DF2296279A500633E44 /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B6DF1296279A500633E44 /* HoneymoonData.swift */; };
+		E81B6DF529627A9200633E44 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B6DF429627A9200633E44 /* CardView.swift */; };
+		E81B6DF929627DDF00633E44 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B6DF829627DDF00633E44 /* HeaderView.swift */; };
+		E81B6DFB29627F5500633E44 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B6DFA29627F5500633E44 /* FooterView.swift */; };
+		E85C50AF2969731F00C6F32F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C50AE2969731F00C6F32F /* Extensions.swift */; };
+		E85C50B12969764E00C6F32F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C50B02969764E00C6F32F /* Helpers.swift */; };
+		E87DB553295AB2F300A23F9D /* HoneymoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DB552295AB2F300A23F9D /* HoneymoonApp.swift */; };
+		E87DB555295AB2F300A23F9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DB554295AB2F300A23F9D /* ContentView.swift */; };
+		E87DB557295AB2F500A23F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87DB556295AB2F500A23F9D /* Assets.xcassets */; };
+		E87DB55A295AB2F500A23F9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87DB559295AB2F500A23F9D /* Preview Assets.xcassets */; };
+		E87DB563295AB4F000A23F9D /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E87DB561295AB4F000A23F9D /* sound-rise.mp3 */; };
+		E87DB564295AB4F000A23F9D /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E87DB562295AB4F000A23F9D /* sound-click.mp3 */; };
+		E87DB566295AB53200A23F9D /* Launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87DB565295AB53200A23F9D /* Launchscreen.storyboard */; };
+		E8B7CB212963C8B400A257CB /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B7CB202963C8B400A257CB /* HeaderComponent.swift */; };
+		E8B7CB232963C99000A257CB /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B7CB222963C98F00A257CB /* GuideComponent.swift */; };
+		E8B7CB252963CBDE00A257CB /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B7CB242963CBDE00A257CB /* GuideView.swift */; };
+		E8CA808529681D9E0044037E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA808429681D9E0044037E /* Constants.swift */; };
+		E8CD2AC229666E8100633C61 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2AC129666E8100633C61 /* InfoView.swift */; };
+		E8CD2AC529666F3000633C61 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2AC429666F3000633C61 /* Modifiers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E81B6DED2962793700633E44 /* HoneymoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonModel.swift; sourceTree = "<group>"; };
+		E81B6DF1296279A500633E44 /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
+		E81B6DF429627A9200633E44 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E81B6DF829627DDF00633E44 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E81B6DFA29627F5500633E44 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		E85C50AE2969731F00C6F32F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E85C50B02969764E00C6F32F /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		E87DB54F295AB2F300A23F9D /* Honeymoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeymoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87DB552295AB2F300A23F9D /* HoneymoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonApp.swift; sourceTree = "<group>"; };
+		E87DB554295AB2F300A23F9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E87DB556295AB2F500A23F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E87DB559295AB2F500A23F9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E87DB561295AB4F000A23F9D /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		E87DB562295AB4F000A23F9D /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
+		E87DB565295AB53200A23F9D /* Launchscreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launchscreen.storyboard; sourceTree = "<group>"; };
+		E8B7CB202963C8B400A257CB /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		E8B7CB222963C98F00A257CB /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		E8B7CB242963CBDE00A257CB /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		E8CA808429681D9E0044037E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E8CD2AC129666E8100633C61 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		E8CD2AC429666F3000633C61 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E87DB54C295AB2F300A23F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E81B6DEF2962793D00633E44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E81B6DED2962793700633E44 /* HoneymoonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E81B6DF02962799300633E44 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E81B6DF1296279A500633E44 /* HoneymoonData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E81B6DF329627A4000633E44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E87DB554295AB2F300A23F9D /* ContentView.swift */,
+				E81B6DF429627A9200633E44 /* CardView.swift */,
+				E81B6DF829627DDF00633E44 /* HeaderView.swift */,
+				E81B6DFA29627F5500633E44 /* FooterView.swift */,
+				E8B7CB242963CBDE00A257CB /* GuideView.swift */,
+				E8CD2AC129666E8100633C61 /* InfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E87DB546295AB2F300A23F9D = {
+			isa = PBXGroup;
+			children = (
+				E87DB551295AB2F300A23F9D /* Honeymoon */,
+				E87DB550295AB2F300A23F9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E87DB550295AB2F300A23F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E87DB54F295AB2F300A23F9D /* Honeymoon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E87DB551295AB2F300A23F9D /* Honeymoon */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD2AC329666F1600633C61 /* Utils */,
+				E8B7CB1F2963C87200A257CB /* Components */,
+				E81B6DF329627A4000633E44 /* Views */,
+				E81B6DEF2962793D00633E44 /* Model */,
+				E81B6DF02962799300633E44 /* Data */,
+				E87DB560295AB4F000A23F9D /* Sounds */,
+				E87DB552295AB2F300A23F9D /* HoneymoonApp.swift */,
+				E87DB556295AB2F500A23F9D /* Assets.xcassets */,
+				E87DB565295AB53200A23F9D /* Launchscreen.storyboard */,
+				E87DB558295AB2F500A23F9D /* Preview Content */,
+			);
+			path = Honeymoon;
+			sourceTree = "<group>";
+		};
+		E87DB558295AB2F500A23F9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E87DB559295AB2F500A23F9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E87DB560295AB4F000A23F9D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E87DB561295AB4F000A23F9D /* sound-rise.mp3 */,
+				E87DB562295AB4F000A23F9D /* sound-click.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E8B7CB1F2963C87200A257CB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E8B7CB202963C8B400A257CB /* HeaderComponent.swift */,
+				E8B7CB222963C98F00A257CB /* GuideComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E8CD2AC329666F1600633C61 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD2AC429666F3000633C61 /* Modifiers.swift */,
+				E8CA808429681D9E0044037E /* Constants.swift */,
+				E85C50AE2969731F00C6F32F /* Extensions.swift */,
+				E85C50B02969764E00C6F32F /* Helpers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E87DB54E295AB2F300A23F9D /* Honeymoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87DB55D295AB2F500A23F9D /* Build configuration list for PBXNativeTarget "Honeymoon" */;
+			buildPhases = (
+				E87DB54B295AB2F300A23F9D /* Sources */,
+				E87DB54C295AB2F300A23F9D /* Frameworks */,
+				E87DB54D295AB2F300A23F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Honeymoon;
+			productName = Honeymoon;
+			productReference = E87DB54F295AB2F300A23F9D /* Honeymoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E87DB547295AB2F300A23F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E87DB54E295AB2F300A23F9D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E87DB54A295AB2F300A23F9D /* Build configuration list for PBXProject "Honeymoon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E87DB546295AB2F300A23F9D;
+			productRefGroup = E87DB550295AB2F300A23F9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E87DB54E295AB2F300A23F9D /* Honeymoon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E87DB54D295AB2F300A23F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87DB563295AB4F000A23F9D /* sound-rise.mp3 in Resources */,
+				E87DB564295AB4F000A23F9D /* sound-click.mp3 in Resources */,
+				E87DB55A295AB2F500A23F9D /* Preview Assets.xcassets in Resources */,
+				E87DB557295AB2F500A23F9D /* Assets.xcassets in Resources */,
+				E87DB566295AB53200A23F9D /* Launchscreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E87DB54B295AB2F300A23F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81B6DF2296279A500633E44 /* HoneymoonData.swift in Sources */,
+				E8CD2AC229666E8100633C61 /* InfoView.swift in Sources */,
+				E81B6DFB29627F5500633E44 /* FooterView.swift in Sources */,
+				E81B6DF929627DDF00633E44 /* HeaderView.swift in Sources */,
+				E8CD2AC529666F3000633C61 /* Modifiers.swift in Sources */,
+				E81B6DEE2962793700633E44 /* HoneymoonModel.swift in Sources */,
+				E8B7CB212963C8B400A257CB /* HeaderComponent.swift in Sources */,
+				E8CA808529681D9E0044037E /* Constants.swift in Sources */,
+				E87DB555295AB2F300A23F9D /* ContentView.swift in Sources */,
+				E87DB553295AB2F300A23F9D /* HoneymoonApp.swift in Sources */,
+				E81B6DF529627A9200633E44 /* CardView.swift in Sources */,
+				E8B7CB232963C99000A257CB /* GuideComponent.swift in Sources */,
+				E8B7CB252963CBDE00A257CB /* GuideView.swift in Sources */,
+				E85C50B12969764E00C6F32F /* Helpers.swift in Sources */,
+				E85C50AF2969731F00C6F32F /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E87DB55B295AB2F500A23F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E87DB55C295AB2F500A23F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E87DB55E295AB2F500A23F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Honeymoon/Preview Content\"";
+				DEVELOPMENT_TEAM = PA48R7V35J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launchscreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuimasterclass.Honeymoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E87DB55F295AB2F500A23F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Honeymoon/Preview Content\"";
+				DEVELOPMENT_TEAM = PA48R7V35J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launchscreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuimasterclass.Honeymoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E87DB54A295AB2F300A23F9D /* Build configuration list for PBXProject "Honeymoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87DB55B295AB2F500A23F9D /* Debug */,
+				E87DB55C295AB2F500A23F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87DB55D295AB2F500A23F9D /* Build configuration list for PBXNativeTarget "Honeymoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87DB55E295AB2F500A23F9D /* Debug */,
+				E87DB55F295AB2F500A23F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E87DB547295AB2F300A23F9D /* Project object */;
+}

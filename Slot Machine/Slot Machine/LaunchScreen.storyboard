@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gfx-background" translatesAutoresizingMaskIntoConstraints="NO" id="a3C-jw-N7u">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gfx-slot-machine" translatesAutoresizingMaskIntoConstraints="NO" id="Uca-4a-whZ">
+                                <rect key="frame" x="57" y="348" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="TeY-WN-8ab"/>
+                                    <constraint firstAttribute="height" constant="200" id="dIj-6k-SKD"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="a3C-jw-N7u" secondAttribute="bottom" id="2O6-yt-sBu"/>
+                            <constraint firstAttribute="trailing" secondItem="a3C-jw-N7u" secondAttribute="trailing" id="7ym-nd-EdY"/>
+                            <constraint firstItem="a3C-jw-N7u" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="Quc-S7-bcy"/>
+                            <constraint firstItem="Uca-4a-whZ" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="gv2-cQ-uCs"/>
+                            <constraint firstItem="a3C-jw-N7u" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="wax-BV-Wna"/>
+                            <constraint firstItem="Uca-4a-whZ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="y4Y-6Q-HGw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gfx-background" width="3072" height="3072"/>
+        <image name="gfx-slot-machine" width="2118" height="924"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

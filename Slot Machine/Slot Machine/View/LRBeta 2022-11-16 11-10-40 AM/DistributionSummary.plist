@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Herschel-LRBeta.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>E6BB877F131F6A4BF682ED73345CB8F10D4ECC63</string>
+				<key>dateExpires</key>
+				<string>2023-09-26</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>E6BB877F131F6A4BF682ED73345CB8F10D4ECC63</string>
+						<key>dateExpires</key>
+						<string>2023-09-26</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Guardian.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>PA48R7V35J</string>
+						<key>name</key>
+						<string>LiveRoom Private Limited</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>E6BB877F131F6A4BF682ED73345CB8F10D4ECC63</string>
+						<key>dateExpires</key>
+						<string>2023-09-26</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SimpleKeychain.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>PA48R7V35J</string>
+						<key>name</key>
+						<string>LiveRoom Private Limited</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>0.12.5</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>PA48R7V35J.com.claranet.mfa.lrbeta</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>PA48R7V35J</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>Herschel-LRBeta.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>7449ce7b-2675-4936-9860-975e79839598</string>
+				<key>dateExpires</key>
+				<string>2023-09-26</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.claranet.mfa.lrbeta</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>PA48R7V35J</string>
+				<key>name</key>
+				<string>LiveRoom Private Limited</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
